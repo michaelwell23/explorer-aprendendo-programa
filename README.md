@@ -20,6 +20,8 @@
 
 Este curso oferece uma formação completa com acompanhamento personalizado e metodologia prática, para quem deseja decolar na carreira de desenvolvimento full stack.
 
+---
+
 <h2 align="center">CONTEÚDO.</h2>
 
 > **Introdução à programação web**: Fundamentos da internet; Protocolos; Navegadores; Cliente & servidor; Front-end & Back-end;
@@ -44,6 +46,8 @@ Este curso oferece uma formação completa com acompanhamento personalizado e me
 > **Deploy de projetos**: CI/CD; Digital Ocean; Heroku; Vercel; Netlify;
 
 ---
+
+<h2 align="center">AULAS.</h2>
 
 Feito com :purple_heart: by [Michael W.Lopes](https://github.com/michael23-lopes)
 

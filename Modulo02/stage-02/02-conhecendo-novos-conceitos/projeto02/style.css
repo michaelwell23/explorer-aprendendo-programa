@@ -2,11 +2,20 @@ body {
   margin: 0;
 
   font-family: 'Open Sans', sans-serif;
+
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+
+  min-height: 100vh;
 }
 
 .page {
   width: 1000px;
-  margin: 65px auto 0;
+  margin: 0 auto 0;
+  padding-top: 65px;
 }
 
 nav {
@@ -39,6 +48,12 @@ h1 {
   font-family: 'Mulish', sans-serif;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 h1 {
   font-size: 49px;
   font-weight: normal;
@@ -54,24 +69,58 @@ h1 span {
   font-weight: bold;
 }
 
-p {
+section p {
   font-size: 14px;
   line-height: 28px;
 
   color: #7d7987;
+
+  margin: 40px 0;
 }
 
 button {
+  color: #fff;
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
+
+  background: #69b99d;
+  border: none;
+  padding: 14px 32px 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  border-radius: 5px;
+  cursor: pointer;
 }
+
+button:hover {
+  background: #568a78;
+}
+
+/* .about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
 
 footer {
   font-size: 14px;
   line-height: 28px;
+  text-align: center;
+
+  margin-top: 80px;
 }
 
 footer a {
   font-weight: bold;
   text-decoration: none;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 2%;
 }

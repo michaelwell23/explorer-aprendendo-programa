@@ -16,13 +16,33 @@
 
 ---
 
-<h2 align="center">SOBRE.</h2>
+## SOBRE.
 
 Este curso oferece uma formação completa com acompanhamento personalizado e metodologia prática, para quem deseja decolar na carreira de desenvolvimento full stack.
 
 ---
 
-<h2 align="center">CONTEÚDO.</h2>
+## AULA.
+
+|        Módulos         | Descrição                                                    |
+| :--------------------: | :----------------------------------------------------------- |
+| [Stage 01](./stage-01) | Fundamentos da Programação Web                               |
+| [Stage 02](./stage-02) | Introdução ao HTML e CSS                                     |
+| [Stage 03](./stage-03) | Avançando no HTML e CSS                                      |
+| [Stage 04](./stage-04) | Introdução aos conceitos JavaScript                          |
+| [Stage 04](./stage-04) | Introdução à programação, lógica e algoritmos com JavaScript |
+| [Stage 04](./stage-04) | Introdução à programação, lógica e algoritmos com JavaScript |
+| [Stage 05](./stage-05) | Avançando no JavaScript                                      |
+| [Stage 06](./stage-06) | JavaScript antes do framework                                |
+| [Stage 07](./stage-07) | Git & Github                                                 |
+| [Stage 08](./stage-08) | Back-end                                                     |
+| [Stage 09](./stage-09) | Front-end                                                    |
+| [Stage 10](./stage-10) | Api Rest                                                     |
+| [Stage 11](./stage-11) | Deploy & Testes Automatizados                                |
+
+---
+
+## CONTEÚDO.
 
 > **Introdução à programação web**: Fundamentos da internet; Protocolos; Navegadores; Cliente & servidor; Front-end & Back-end;
 
@@ -46,8 +66,6 @@ Este curso oferece uma formação completa com acompanhamento personalizado e me
 > **Deploy de projetos**: CI/CD; Digital Ocean; Heroku; Vercel; Netlify;
 
 ---
-
-<h2 align="center">AULAS.</h2>
 
 Feito com :purple_heart: by [Michael W.Lopes](https://github.com/michael23-lopes)
 

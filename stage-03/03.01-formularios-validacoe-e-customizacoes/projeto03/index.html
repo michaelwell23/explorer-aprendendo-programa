@@ -18,7 +18,7 @@
         <h1>Crie e compartilhe seu evento</h1>
         <p>O primeiro passo é preencher o formulário de inscrição.</p>
       </header>
-      <form>
+      <form id="form">
         <fieldset>
           <div class="feldset-wrapper">
             <legend>Informações do evento</legend>
@@ -28,7 +28,7 @@
                 >Título do evento
                 <span>(mínimo 8 caracteres)</span>
               </label>
-              <input type="text" id="event-title" />
+              <input type="text" id="event-title" minlength="8" />
             </div>
 
             <div class="input-wrapper">
@@ -55,12 +55,14 @@
             <div class="input-wrapper">
               <label for="event-category">Categoria</label>
               <select id="event-category">
+                <option default">Selecione o tipo de evento
+                <option></option>
                 <option value="live">Ao vivo</option>
                 <option value="podcast">Podcast</option>
                 <option value="metorship">Mentoria</option>
                 <option value="class">Aulas</option>
-                <option value="ebooks">E-books</option>
-                <option value="books">Livros</option>
+                <option value="ebooks">Divulgação de E-books</option>
+                <option value="releases">Lançamentos</option>
               </select>
             </div>
           </div>
@@ -83,7 +85,7 @@
                 >Senha de acesso para os participantes
                 <span>(mínimo 8 caracteres)</span>
               </label>
-              <input type="password" id="event-password" />
+              <input type="password" id="event-password" minlength="8" />
             </div>
 
             <div class="checkbox-wrapper">
@@ -99,7 +101,7 @@
             <div class="col-3">
               <div class="input-wrapper">
                 <label for="event-date">Data </label>
-                <input type="date" id="event-date" />
+                <input type="date" id="event-date" rq />
               </div>
 
               <div class="input-wrapper">
@@ -115,6 +117,9 @@
           </div>
         </fieldset>
       </form>
+      <footer class="form-buttons">
+        <input class="button" type="submit" form="form" value="Salvar evento" />
+      </footer>
     </div>
   </body>
 </html>

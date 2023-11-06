@@ -21,13 +21,23 @@
 | Aula 13 | **Criando estilos para o submit**                         |
 | Aula 14 | **Validando campos e submetendo formulários**             |
 
-<!-- ### Stage 03.02 - Responsividade
+![Projeto 04- stage 03.01](./../.github/projetos/projeto03.png)
 
-|  Aulas  | Descrição                         |
-| :-----: | :-------------------------------- |
-| Aula 01 | **O que é programação**           |
-| Aula 02 | **Logica de programação**         |
-| Aula 03 | **O que é e como funciona a web** |
-| Aula 04 | **Front-end vs Back-end**         |
+---
 
-### Stage 03.03 - Avançando no CSS -->
+### Stage 03.02 - Responsividade
+
+|  Aulas  | Descrição                                    |
+| :-----: | :------------------------------------------- |
+| Aula 01 | **Introdução à responsividade**              |
+| Aula 02 | **Estruturando o HTML**                      |
+| Aula 03 | **Regras do mobile-first**                   |
+| Aula 04 | **Regras das unidades de medidas flexiveis** |
+| Aula 05 | **Continuando ajustes de texto**             |
+| Aula 06 | **Finalizando ajustes da versão mobile**     |
+| Aula 07 | **Versão desktop**                           |
+| Aula 08 | **Finalizando a etapa**                      |
+
+![Projeto 04- stage 03.02](./../.github/projetos/projeto04.png)
+
+### Stage 03.03 - Avançando no CSS

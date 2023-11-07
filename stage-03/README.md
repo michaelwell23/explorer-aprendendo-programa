@@ -21,6 +21,8 @@
 | Aula 13 | **Criando estilos para o submit**                         |
 | Aula 14 | **Validando campos e submetendo formulários**             |
 
+#### Projeto 03
+
 ![Projeto 04- stage 03.01](./../.github/projetos/projeto03.png)
 
 ---
@@ -38,6 +40,29 @@
 | Aula 07 | **Versão desktop**                           |
 | Aula 08 | **Finalizando a etapa**                      |
 
+#### Projeto 04
+
 ![Projeto 04- stage 03.02](./../.github/projetos/projeto04.png)
 
+---
+
 ### Stage 03.03 - Avançando no CSS
+
+|  Aulas  | Descrição                                           |
+| :-----: | :-------------------------------------------------- |
+| Aula 01 | **Apresentação do componente**                      |
+| Aula 02 | **Estruturando HTML**                               |
+| Aula 03 | **Variaveis e cores HSL no CSS**                    |
+| Aula 04 | **Estilizando o header**                            |
+| Aula 05 | **Definindo largura maxima e alinhando o conteúdo** |
+| Aula 06 | **Encaixando a imagem e sobrepondo o texto**        |
+| Aula 07 | **Finalizando os cards**                            |
+| Aula 08 | **Transições e transformações**                     |
+| Aula 09 | **Animações com CSS**                               |
+| Aula 10 | **Versão desktop com CSS Grid**                     |
+| Aula 11 | **Adicionando filtros em imagens com CSS**          |
+| Aula 12 | **Ajustando textos com CSS clamp**                  |
+
+#### Projeto 05
+
+![Projeto 04- stage 03.03](./../.github/projetos/projeto05.png)

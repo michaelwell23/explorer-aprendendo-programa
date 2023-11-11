@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escopo e Var</title>
+  </head>
+  <body>
+    <script>
+      // var é global e podera funcionar fora de um escopo de bloco
+      console.log('> existe x antes do bloco?', x);
+
+      {
+        var x = 0;
+      }
+
+      console.log('> existe x depoius do bloco?', x);
+    </script>
+  </body>
+</html>

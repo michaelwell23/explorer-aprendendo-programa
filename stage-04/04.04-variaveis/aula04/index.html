@@ -3,9 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CONHECENDO AS VARIAVEIS</title>
+    <title>ESCOPO - LET E CONST</title>
   </head>
   <body>
-    <script></script>
+    <script>
+      // Const e let são locais e só funcionam no escopo onde foi criadas
+
+      {
+        let a = 30;
+        const b = 40;
+
+        console.log(a); // Saída: 30
+        console.log(b); // Saída: 40
+      }
+
+      console.log(a); // Erro: a is not defined
+      console.log(b); // Erro: b is not defined
+    </script>
   </body>
 </html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manipulando Arrays</title>
+  </head>
+  <body>
+    <script>
+      let techs = ['html', 'css', 'javascript'];
+
+      //Adicionando um elemento no array
+      techs.push('nodejs');
+
+      // adicionando no começo
+      techs.unshift('SQL');
+
+      // removendo do fim
+      techs.pop();
+
+      // remove do começo do array
+      techs.shift();
+
+      console.log(techs);
+
+      // pegar somente alguns elementos do array
+      console.log('Slice', techs.slice(2, 4));
+
+      // remover 1 ou mais items em qualquer posição do array
+      console.log('Splice', techs.splice(0));
+
+      // encontrar a posição de um elemento mp array
+      let index = techs.indexOf('html');
+
+      console.log('indexOf', index);
+    </script>
+  </body>
+</html>

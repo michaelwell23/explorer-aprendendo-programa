@@ -7,30 +7,43 @@
 
 ---
 
-## Resumo da Aula
+## O QUE É A WEB?
 
-- `O que é Web?` A Web, abreviação de World Wide Web, é um sistema de informação global baseado na internet que permite o compartilhamento de documentos e recursos interconectados por meio de hiperlinks. Ela é uma parte fundamental da internet, onde os usuários podem acessar sites, páginas da web e conteúdo digital usando navegadores, permitindo a disseminação de informações, comunicação e interação online.
+**"World Wide Web" (Rede Mundial de Computadores)**, é um sistema de informação global acessível através da internet. A Web é um espaço virtual onde documentos e recursos interconectados são identificados por URLs (Uniform Resource Locators) e podem ser acessados via navegadores web.
 
-- `Como funciona a Web?` A World Wide Web (Web) funciona como um sistema de informação global que opera sobre a infraestrutura da internet. Aqui está uma explicação resumida de como ela opera:
+A Web foi desenvolvida por Tim Berners-Lee em 1989 e tornou-se amplamente disponível ao público em 1993. Ela é uma parte essencial da internet e é frequentemente usada de forma intercambiável com o termo "internet", embora esses dois conceitos não sejam exatamente iguais.
 
-  - **Protocolos de Comunicação**: A Web é baseada em protocolos de comunicação, sendo o mais fundamental o HTTP (Hypertext Transfer Protocol). Quando você digita um endereço da web (URL) em seu navegador e pressiona "Enter", o navegador envia uma solicitação HTTP para o servidor que hospeda o site.
+A World Wide Web permite que os usuários acessem uma variedade de conteúdos, incluindo páginas da web, imagens, vídeos, documentos, entre outros. A navegação na Web é facilitada pelos hiperlinks, que conectam informações em diferentes páginas e sites. A interconectividade da Web é fundamental para a criação de uma experiência de navegação rica e integrada.
 
-  - **Servidores Web**: Os servidores web são computadores que armazenam os arquivos de um site, como páginas HTML, imagens, vídeos e outros recursos. Quando recebem uma solicitação HTTP, os servidores web respondem enviando os arquivos necessários de volta ao navegador do usuário.
+Além disso, a Web é uma plataforma para uma ampla gama de serviços e aplicativos, como redes sociais, comércio eletrônico, serviços de busca, e-mail, streaming de mídia, entre outros. Ela desempenha um papel central na comunicação, na disseminação de informações e no acesso a recursos diversos em escala global.
 
-  - **Navegadores Web**: Os navegadores, como o Google Chrome, Firefox e Safari, são aplicativos que interpretam os arquivos recebidos dos servidores web. Eles exibem o conteúdo da página da web, interpretam o código HTML, processam estilos CSS e executam scripts JavaScript para criar uma interface de usuário interativa.
+---
 
-  - **Hiperlinks**: Uma das características distintivas da Web é o uso de hiperlinks. Eles são elementos em uma página web que podem ser clicados para navegar para outras páginas ou recursos. Os hiperlinks permitem a interconexão de documentos e sites em toda a Web.
+## COMO FUNCIONA A WEB?
 
-  - **Endereços da Web (URLs)**: Os URLs são os endereços que usamos para acessar recursos na Web. Eles identificam de forma única a localização de um recurso na internet. Um URL típico possui o seguinte formato: "http://www.exemplo.com/pagina".
+A Web funciona como um sistema de informações global que permite a criação, o compartilhamento e o acesso a conteúdos diversos através da internet. Aqui está uma explicação mais detalhada de como a Web opera:
 
-  - **Renderização de Conteúdo**: O navegador processa os recursos recebidos, interpreta o código HTML para organizar o layout da página, aplica estilos com base no CSS e executa scripts para adicionar interatividade.
+- **Protocolo HTTP/HTTPS:**
+  A comunicação na Web é baseada no Protocolo de Transferência de Hipertexto (HTTP) ou sua versão segura, HTTPS (HTTP Seguro). Esses protocolos definem como as mensagens são formatadas e transmitidas entre os clientes (navegadores web) e os servidores web.
+- **Cliente e Servidor**:
+  - **O sistema da Web envolve dois componentes principais**: o cliente e o servidor. O cliente é geralmente u navegador web (como Chrome, Firefox ou Safari) usado por uma pessoa, enquanto o servidor é um computador remoto que armazena e fornece os recursos (páginas da web, imagens, vídeos, etc.).
+- **URLs (Uniform Resource Locators)**:
+  Cada recurso na Web é identificado por uma URL única. As URLs são utilizadas pelos navegadores para localizar e recuperar esses recursos. Uma URL é geralmente composta por um esquema (como "http" ou "https"), um nome de domínio (por exemplo, www.exemplo.com) e um caminho específico para o recurso.
+- **Navegadores Web**:
+  Os navegadores web são aplicativos que os usuários utilizam para interagir com a Web. Eles interpretam o código HTML (Hypertext Markup Language) recebido dos servidores e exibem páginas da web formatadas para os usuários. Além disso, os navegadores podem executar scripts, como JavaScript, que adicionam interatividade às páginas.
+- **HTML, CSS, e JavaScript**:
+  As páginas da web são geralmente construídas usando HTML para estruturação, CSS (Cascading Style Sheets) para estilo e formatação, e JavaScript para interatividade. Essas linguagens trabalham em conjunto para criar uma experiência rica e dinâmica para o usuário.
+- **Hiperlinks**:
+  Hiperlinks são elementos fundamentais na Web. Eles permitem que os usuários naveguem de uma página para outra clicando em palavras, imagens ou botões destacados. Os hiperlinks são incorporados no código HTML e conectam recursos relacionados.
+- **Requisições e Respostas**:
+  Quando um usuário digita uma URL no navegador ou clica em um link, o navegador envia uma solicitação (request) para o servidor correspondente. O servidor processa a solicitação e retorna uma resposta (response) que pode incluir o conteúdo solicitado, informações de erro ou redirecionamentos.
+- **Cookies e Sessões**:
+  Cookies são pequenos arquivos de texto armazenados no computador do usuário que ajudam a manter o estado entre diferentes interações com um site. As sessões são usadas para manter a continuidade da interação do usuário enquanto ele navega em um site.
+- **Segurança com HTTPS**:
+  Para garantir a segurança das transmissões de dados entre o cliente e o servidor, muitos sites usam HTTPS. Isso envolve a criptografia dos dados transmitidos, tornando mais difícil para terceiros mal-intencionados interceptarem ou manipularem as informações.
+- **Mecanismos de Busca**:
+  Mecanismos de busca, como o Google, indexam milhões de páginas da web para ajudar os usuários a encontrar informações relevantes. Eles usam algoritmos complexos para classificar e apresentar os resultados mais relevantes para as consultas dos usuários.
 
-  - **Retorno de Dados**: Após a renderização, a página web é exibida ao usuário. Ela pode conter texto, imagens, vídeos, formulários interativos e outros elementos, permitindo a interação do usuário com o conteúdo.
+Em resumo, a Web opera através da troca de mensagens entre clientes (navegadores) e servidores, usando protocolos padrão, URLs para identificação de recursos, e linguagens como HTML, CSS e JavaScript para criar e apresentar conteúdo de maneira visualmente atraente e interativa. Essa estrutura possibilita a disseminação global de informações e serviços através da internet.
 
-  - **Back-End e Banco de Dados**: Muitos sites usam uma arquitetura cliente-servidor, onde o servidor fornece informações dinâmicas do back-end e interage com bancos de dados para fornecer conteúdo personalizado e atualizações em tempo real.
-
-  - **Segurança**: Protocolos de segurança, como HTTPS (HTTP Seguro), são frequentemente usados para proteger a comunicação entre o navegador e o servidor, garantindo que os dados transmitidos sejam criptografados e seguros.
-
-A Web funciona como uma rede global de informações interconectadas, permitindo aos usuários acessar, compartilhar e interagir com conteúdo digital por meio de navegadores e hiperlinks, com servidores web e protocolos desempenhando papéis cruciais na distribuição e recuperação de dados.
-
-- ![o que é web](../../.github/mod01/img_au03.png);
+- ![o que é web](./../../.github/stage01/img_au03.png)

@@ -3,65 +3,39 @@
 ## Conteúdo da aula
 
 - Uma maneira de pensar?
-- Como o computador entender?
+- Como o computador entende?
 - Dar instruções?
 
 ---
 
-## Resumo da Aula
+## UMA MANEIRA DE PENSAR?
 
-- `Uma maneira de pensar?` Lógica de programação é uma maneira de pensar. Dentro da programação existe duas maneirais de se pensar: A primeira delas é a **programação imperativa** e a outra é a **programação declarativa**. A programação imperativa vem da ideia de dar ordem, ou seja, uma programação imperativa é quando damos as ordens passo a passo, falando exatamente como fazer. Já a programação declarativar é uma maneira de pensar que envolve um conjunto de regras que intrui o que fazer.
-
-- `Como o computador entender?` Os computadores não possui uma capacidade cogniiva de entender as coisas, por isso ele recebe e processa as ordens, que lhe é dadas, por isso é importante entender o problema,para que as instruções dadas para o computador, sejam conforme o resultado. A forma que utilizamos para dar instruções ao computador é utilizando as **linguagem de programação**, pois é essas lingaugens que o computador recebe e processa as ordens.
-
-- `Dar instruções?` Uma instrução é algo que envolve dados e manipulação. envolve fornecer comandos precisos e sequenciais para se executar uma tarefa específica. Essas instruções devem ser claras, lógicas e detalhadas, seguindo uma ordem lógica, a fim de alcançar um resultado desejado, um bom exemplo de instruções é a receita para bolo ou fazer um bom café.
-
-## EXERCÍCIOS
-
-### ALGORITMO DE COMO FAZER CAFÉ
-
-> Iniciar: Reúna os materiais necessários, incluindo café, filtro, água e uma cafeteira.
-
-> Encha a Cafeteira: Abra a cafeteira e encha o reservatório com a quantidade desejada de água.
-
-> Preparar o Filtro: Coloque um filtro de café no cesto da cafeteira.
-
-> Adicione Café: Coloque a quantidade apropriada de café moído no filtro.
-
-> Ligue a Cafeteira: Feche a cafeteira e ligue-a.
-
-> Aguarde: Aguarde até que o café seja feito e a cafeteira pare de gotejar.
-
-> Desligue a Cafeteira: Desligue a cafeteira.
-
-> Sirva-se: Despeje o café em uma xícara e adicione açúcar ou leite, se desejado.
-
-> Aproveite o Café: Agora, você pode desfrutar de uma xícara de café.
+A lógica de programação é um conjunto de princípios e regras que orientam a criação de algoritmos, que são sequência de passos lógicos e estruturados para resolver um problema específico. Essa disciplina envolve a organização e o fluxo de instruções de maneira coerentE, de modo a permitir que um programa de computador execute tarefas de forma eficiente e eficaz. A lógica de programação capacita os desenvolvedores a criar algoritmos compreensíveis, mantendo a clareza na expressão das soluções para problemas, facilitando a implementação e manutenção de software. Essa abordagem se concentra em raciocínio abstrato, estruturas de controle de fluxo e manipulação de dados, contribuindo para a criação de programas robustos e funcionais.
 
 ---
 
-### ALGORITMO DE COMO POSTAR NO INSTAGRAM
+## COMO O COMPUTADOR ENTENDE?
 
-> Iniciar: Abra o aplicativo Instagram em seu dispositivo móvel.
+O computador entende informações por meio de linguagem binária, que consistem em sequências de zeros (0) e uns (1), conhecidos como bits. Essa linguagem binária é a base da comunicação entre o hardware e o software de um computador.
 
-> Fazer Login: Faça login na sua conta, se necessário.
+No nível mais fundamental, o processador do computador interpreta essas sequência de bits como instruções para executar operações específicas. Essas intruções são codificadas em linguagem de máquina, que é uma representação numérica das operações que o processador deve realizar.
 
-> Acesse a Página de Início: Toque no ícone da casa na parte inferior da tela para acessar a página de início.
+O software, por sua vez, fornece instruções nesse formato para o processador. Essas instruções podem ser parte de programas mais complexos, escritos em lingaugens de programção de alto nível, como C++, Python ou Java. Antes de executar um programa, ele é traduzido para a linguagem de máquina específica do processador.
 
-> Criar Postagem: Toque no ícone de "+" ou "Adicionar" na parte superior da tela.
+O armazenamento de dados também é feito em formato binário, onde cada conjunto de bits representa informações como números, texto, imagens, ou qualquer outra forma de dados. A interpretação desses dados são realizadas conforme as intruções do software, que o processador executa.
 
-> Selecione uma Foto ou Vídeo: Escolha a foto ou vídeo que deseja postar da sua galeria.
+Em resumo, o computador entende e processa informações atraves da interpretação de sequências de zeros e uns, traduzindo-as em instruções que podem ser executadas pelo processador para realizar operações específicas. Esse processo é fundamental para o funcionamento de todas as operações computacionais.
 
-> Edite a Foto ou Vídeo: Use as ferramentas de edição do Instagram, se necessário, para ajustar a imagem ou aplicar filtros.
+---
 
-> Adicione uma Legenda: Escreva uma legenda descritiva para a sua postagem.
+## COMO DAR INSTRUÇÕES?
 
-> Adicione Hashtags: Adicione hashtags relevantes para aumentar a visibilidade da postagem.
+Para dar instruções ao computador, é necessário utilizar uma linguagem de programação. As linguagens de programação são conjuntos de regras e símbolos que permitem aos desenvolvedores comunicar suas intenções ao computador. Essas linguagens são projetadas para serem compreensíveis tanto pelos humanos quanto pelos computadores.
 
-> Marque Pessoas: Marque amigos ou outras contas, se apropriado.
+Ao escrever um programa em uma linguagem de programação, o desenvolvedor utiliza uma sintaxe específica para expressar as operações desejadas. As intruções escritas no código-fonte são então traduzidas para linguagem de máquina durante o processo de compilação ou interpretação, tornando-as compreensíveis para o computador.
 
-> Configurar Privacidade: Escolha as configurações de privacidade (público, seguidores, amigos próximos, etc.).
+O código-fonte pode conter instruções para realizar uma ampla variedade de tarefa, desde cálculos matemáticos simples até operações complexas envolvendo manipulações de dados interações com o usuário e controle de dispositivos. A habilidade do programador está em criar algoritmos eficientes e lógicos para resolver problemas específicos.
 
-> Compartilhar a Postagem: Toque no botão "Compartilhar" para publicar a postagem.
+Assim, ao dar instruções ao computador, os desenvolvedores utilizam a linguagem de programação para criar programas que definem as operações desejadas. Esses programas quando executados, permitem que o computador realize as tarefas planejadas de acordo com as instruções fornecidas no código-fonte.
 
-> Aproveite a Postagem: Sua postagem está agora no Instagram para que outros possam ver e interagir com ela.
+![O que é programação](./../../.github/stage01/img_au02.png)

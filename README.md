@@ -24,13 +24,12 @@ Este curso oferece uma formação completa com acompanhamento personalizado e me
 
 ## AULA.
 
-|        Módulos         | Descrição                                                    |
+|        Módulos         | Aula                                                         |
 | :--------------------: | :----------------------------------------------------------- |
 | [Stage 01](./stage-01) | Fundamentos da Programação Web                               |
 | [Stage 02](./stage-02) | Introdução ao HTML e CSS                                     |
 | [Stage 03](./stage-03) | Avançando no HTML e CSS                                      |
 | [Stage 04](./stage-04) | Introdução aos conceitos JavaScript                          |
-| [Stage 04](./stage-04) | Introdução à programação, lógica e algoritmos com JavaScript |
 | [Stage 04](./stage-04) | Introdução à programação, lógica e algoritmos com JavaScript |
 | [Stage 05](./stage-05) | Avançando no JavaScript                                      |
 | [Stage 06](./stage-06) | JavaScript antes do framework                                |

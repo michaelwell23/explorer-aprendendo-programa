@@ -1,6 +1,6 @@
 # PRTICANDO E AVANÇANDO
 
-|       Módulos       | Descrição                                             |
+|        Aulas        | Descrição                                             |
 | :-----------------: | :---------------------------------------------------- |
 | [Aula 01](./aula01) | Declaração de variávies e atribuição de valores (var) |
 | [Aula 02](./aula02) | Agrupando declarações                                 |

@@ -1,6 +1,6 @@
 # EXPRESSÕES E OPERADORES
 
-|       Módulos       | Descrição                                                            |
+|        Aulas        | Descrição                                                            |
 | :-----------------: | :------------------------------------------------------------------- |
 | [Aula 01](./aula01) | Introdução a Expressões e Operadores                                 |
 | [Aula 02](./aula02) | New                                                                  |

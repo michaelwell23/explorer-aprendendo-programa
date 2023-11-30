@@ -1,6 +1,6 @@
 # PRIMEIROS PASSOS
 
-|       Módulos        | Descrição                        |
+|        Aulas         | Descrição                        |
 | :------------------: | :------------------------------- |
 | [Aula 01](./aula01)  | Sintaxe                          |
 | [Aula 02](./aula02/) | Maneira de executar o JavaScript |

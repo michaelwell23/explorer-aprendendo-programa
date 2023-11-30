@@ -1,6 +1,6 @@
 # TIPO DE DADOS
 
-|       Módulos        | Descrição         |
+|        Aulas         | Descrição         |
 | :------------------: | :---------------- |
 | [Aula 01](./aula01)  | Introdução        |
 | [Aula 02](./aula02/) | String            |

@@ -1,6 +1,6 @@
 # FUNÇÕES
 
-|       Módulos       | Descrição                           |
+|        Aulas        | Descrição                           |
 | :-----------------: | :---------------------------------- |
 | [Aula 01](./aula01) | Funções                             |
 | [Aula 02](./aula02) | Argumentos e parâmetros             |

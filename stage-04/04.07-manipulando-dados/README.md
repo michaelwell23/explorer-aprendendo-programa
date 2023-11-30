@@ -1,6 +1,6 @@
 # MANIPULANDO DADOS
 
-|       Módulos       | Descrição                       |
+|        Aulas        | Descrição                       |
 | :-----------------: | :------------------------------ |
 | [Aula 01](./aula01) | Prototype                       |
 | [Aula 02](./aula02) | Type conversion e Type Coersion |

@@ -81,7 +81,12 @@ button {
 input {
   background-color: #dce2e9;
   width: 6rem;
-  border-radius: 0.4rem 0 0.4rem;
+  border-radius: 0.4rem 0 0 0.4rem;
+  font-size: 20px;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 
 /* SCREEN 2 */

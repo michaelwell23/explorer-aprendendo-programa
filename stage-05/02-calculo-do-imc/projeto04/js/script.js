@@ -1,43 +1,35 @@
+import { Modal } from './modal.js';
+import { alertError } from './alert-error.js';
+import { calculateIMC, notNumber } from './utils.js';
+
 const form = document.querySelector('form');
 const inputWeight = document.querySelector('#weight');
 const inputHeight = document.querySelector('#height');
 
-// const modalWrapper = document.querySelector('.modal-wrapper');
-// const modalMessage = document.querySelector('.modal .title span');
-// const modalBtnClose = document.querySelector('.modal button.close');
-
-function imcCalculate(weight, height) {
-  return (weight / (height / 100) ** 2).toFixed(2);
-}
-
-const Modal = {
-  wrapper: document.querySelector('.modal-wrapper'),
-  message: document.querySelector('.modal .title span'),
-  buttonClose: document.querySelector('.modal button.close'),
-
-  open(modalAttribute) {
-    modalAttribute.classList.add('open');
-  },
-  close(modalAttribute) {
-    modalAttribute.classList.remove('open');
-  },
-};
-
+// quando a arrow function recebe apenas um argumento, ela pode ser escrita sem os parênteses
+inputHeight.oninput = () => alertError.close();
+inputHeight.oninput = () => alertError.close();
 form.onsubmit = (event) => {
   event.preventDefault();
-
   const weight = inputWeight.value;
   const height = inputHeight.value;
 
-  const result = imcCalculate(weight, height);
+  const weightOrHeightIsNotANumber = notNumber(weight) || notNumber(height);
+
+  if (weightOrHeightIsNotANumber) {
+    alertError.open();
+    return;
+  }
+
+  alertError.close();
+
+  const result = calculateIMC(weight, height);
+  displayResultMessage(result);
+};
+
+function displayResultMessage(result) {
   const message = `Seu IMC é de ${result}`;
 
-  Modal.message.innerHTML = message;
-  Modal.open(Modal.wrapper);
-};
-
-Modal.buttonClose.onclick = () => {
-  Modal.close(Modal.wrapper);
-  inputWeight.value = '';
-  inputHeight.value = '';
-};
+  Modal.message.innerText = message;
+  Modal.open();
+}

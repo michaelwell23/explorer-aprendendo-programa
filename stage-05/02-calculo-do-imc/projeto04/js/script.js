@@ -9,6 +9,7 @@ const inputHeight = document.querySelector('#height');
 // quando a arrow function recebe apenas um argumento, ela pode ser escrita sem os parênteses
 inputHeight.oninput = () => alertError.close();
 inputHeight.oninput = () => alertError.close();
+
 form.onsubmit = (event) => {
   event.preventDefault();
   const weight = inputWeight.value;

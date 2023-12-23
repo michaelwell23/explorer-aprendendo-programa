@@ -1,3 +1,6 @@
+import { Controls } from './controls.js';
+import { Timer } from './timer.js';
+
 const buttonṔlay = document.querySelector('.play');
 const buttonPause = document.querySelector('.pause');
 const buttonSet = document.querySelector('.set');
@@ -11,65 +14,34 @@ const secondsDisplay = document.querySelector('.seconds');
 let minutes = Number(minutesDisplay.textContent);
 let timerTimeout;
 
-function resetControls() {
-  buttonPause.classList.add('hide');
-  buttonStop.classList.add('hide');
-  buttonṔlay.classList.remove('hide');
-  buttonSet.classList.remove('hide');
-}
+const controls = Controls({
+  buttonPause,
+  buttonStop,
+  buttonṔlay,
+  buttonSet,
+  minutes,
+});
 
-function updateTimerDisplay(minutes, seconds) {
-  minutesDisplay.textContent = String(minutes).padStart(2, '0');
-  secondsDisplay.textContent = String(seconds).padStart(2, '0');
-}
-
-function resetTimer() {
-  updateTimerDisplay(minutes, 0);
-  clearTimeout(timerTimeout);
-}
-
-function countDown() {
-  timerTimeout = setTimeout(() => {
-    let seconds = Number(secondsDisplay.textContent);
-    let minutes = Number(minutesDisplay.textContent);
-
-    updateTimerDisplay(minutes, 0);
-
-    if (minutes <= 0) {
-      resetControls();
-      return;
-    }
-
-    if (seconds <= 0) {
-      seconds = 2;
-
-      --minutes;
-    }
-
-    updateTimerDisplay(minutes, String(seconds - 1));
-
-    countDown();
-  }, 1000);
-}
+const timer = Timer({
+  minutesDisplay,
+  secondsDisplay,
+  timerTimeout,
+  resetControls: controls.reset,
+});
 
 buttonṔlay.addEventListener('click', () => {
-  buttonṔlay.classList.add('hide');
-  buttonPause.classList.remove('hide');
-  buttonSet.classList.add('hide');
-  buttonStop.classList.remove('hide');
-
-  countDown();
+  controls.play();
+  timer.countDown();
 });
 
 buttonPause.addEventListener('click', () => {
-  buttonPause.classList.add('hide');
-  buttonṔlay.classList.remove('hide');
+  controls.pause();
   clearTimeout(timerTimeout);
 });
 
 buttonStop.addEventListener('click', () => {
-  resetControls();
-  resetTimer();
+  controls.reset();
+  timer.reset();
 });
 
 buttoSoundOn.addEventListener('click', () => {
@@ -83,14 +55,14 @@ buttoSoundOff.addEventListener('click', () => {
 });
 
 buttonSet.addEventListener('click', () => {
-  let newMinutes = prompt('Quantos minutos?');
+  let newMinutes = controls.getMinutes();
 
   if (!newMinutes) {
-    resetTimer();
+    timer.reset();
     return;
   }
 
   minutes = newMinutes;
 
-  updateTimerDisplay(minutes, 0);
+  timer.updateDisplay(minutes, 0);
 });

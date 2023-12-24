@@ -9,8 +9,8 @@ const randomNumber = Math.round(Math.random() * 10);
 let xAttempts = 1;
 
 function toggleScreen() {
-  screen1.classList.toggle('hide');
-  screen2.classList.toggle('hide');
+  screen1.classList.toggle('hiden');
+  screen2.classList.toggle('hiden');
 }
 
 function handleTryClick(event) {

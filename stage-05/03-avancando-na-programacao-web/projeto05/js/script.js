@@ -1,68 +1,29 @@
-import { Controls } from './controls.js';
-import { Timer } from './timer.js';
-
-const buttonṔlay = document.querySelector('.play');
-const buttonPause = document.querySelector('.pause');
-const buttonSet = document.querySelector('.set');
-const buttonStop = document.querySelector('.stop');
-const buttoSoundOn = document.querySelector('.sound-on');
-const buttoSoundOff = document.querySelector('.sound-off');
-
-const minutesDisplay = document.querySelector('.minutes');
-const secondsDisplay = document.querySelector('.seconds');
-
-let minutes = Number(minutesDisplay.textContent);
-let timerTimeout;
+import Controls from './controls.js';
+import Timer from './timer.js';
+import Sound from './sounds.js';
+import Events from './events.js';
+import {
+  buttonPlay,
+  buttonPause,
+  buttonSet,
+  buttonStop,
+  displayMinutes,
+  displaySeconds,
+} from './elements.js';
 
 const controls = Controls({
+  buttonPlay,
   buttonPause,
-  buttonStop,
-  buttonṔlay,
   buttonSet,
-  minutes,
+  buttonStop,
 });
 
 const timer = Timer({
-  minutesDisplay,
-  secondsDisplay,
-  timerTimeout,
+  displayMinutes,
+  displaySeconds,
   resetControls: controls.reset,
 });
 
-buttonṔlay.addEventListener('click', () => {
-  controls.play();
-  timer.countDown();
-});
+const sound = Sound();
 
-buttonPause.addEventListener('click', () => {
-  controls.pause();
-  clearTimeout(timerTimeout);
-});
-
-buttonStop.addEventListener('click', () => {
-  controls.reset();
-  timer.reset();
-});
-
-buttoSoundOn.addEventListener('click', () => {
-  buttoSoundOn.classList.add('hide');
-  buttoSoundOff.classList.remove('hide');
-});
-
-buttoSoundOff.addEventListener('click', () => {
-  buttoSoundOn.classList.remove('hide');
-  buttoSoundOff.classList.add('hide');
-});
-
-buttonSet.addEventListener('click', () => {
-  let newMinutes = controls.getMinutes();
-
-  if (!newMinutes) {
-    timer.reset();
-    return;
-  }
-
-  minutes = newMinutes;
-
-  timer.updateDisplay(minutes, 0);
-});
+Events({ timer, sound, controls });

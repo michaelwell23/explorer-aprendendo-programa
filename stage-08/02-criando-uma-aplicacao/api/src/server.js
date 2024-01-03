@@ -1,18 +1,12 @@
 const PORT = 3333;
+
 const express = require('express');
 
+const routes = require('./routes/index.routes');
+
 const app = express();
+app.use(express.json());
 
-app.get('/message/:id/', (req, res) => {
-  const { id, user } = req.params;
-
-  res.send(`Id da mensagem: ${id}`);
-});
-
-app.get('/users', (req, res) => {
-  const { page, limit } = req.query;
-
-  res.send(`Página: ${page}. Mostrar: ${limit}`);
-});
+app.use(routes);
 
 app.listen(PORT, () => console.log(`Server is running on Port: ${PORT}`));
